@@ -1,0 +1,235 @@
+  .planning {
+    position: relative;
+  }
+  .reflection {
+    position: absolute;
+    top: 6.25px;
+    left: 45px;
+    display: inline-block;
+    width: 109.04px;
+    height: 25px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 135px;
+    height: 34px;
+  }
+  .mail-icon {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 29px;
+    height: 22px;
+    object-fit: cover;
+  }
+  .reflection-parent {
+    position: relative;
+    width: 161px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  .home-parent,
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-bar {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+  .home-parent {
+    width: 664px;
+    flex-shrink: 0;
+    gap: 25px;
+  }
+  .home, .insights-container, .reflection-container {
+    animation: fade 2s;
+  }
+  .laith-weinberger-parent {
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    width: 1168px;
+    gap: 303px;
+  }
+  .text {
+    position: absolute;
+    top: 417px;
+    left: 392px;
+    font-size: 12px;
+  }
+  .political-campaign {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    font-family: 'Nanum Myeongjo', serif;
+  }
+  .organizers {
+    margin: 0;
+  }
+  .go-to-planning,
+  .home-content-container {
+    margin-top: 3%;
+    width: 50%;
+    flex-flow: row wrap;
+    font-size: 32px;
+  }
+  .go-to-planning {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    top: 717px;
+    font-size: 30px;
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .image-1-icon {
+    display: flex;
+    float: right;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 50%;
+
+  }
+  .political-campaign-organizers-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    font-weight: 500;
+  }
+  .home {
+    margin-left: 5%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFEFC;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: orange 5px auto;
+  }
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* no underline */
+  }
+  .figma-embed {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 500px;
+    width: 90%;
+    border-width: 0px;
+  }
+  .figma-embed-persona {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 400px;
+    width: 90%;
+    border-width: 0px;
+  }
+  .persona {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .next-persona,
+  .next-insight {
+    font-size: 24px;
+    margin-left: 5%;
+    height: 30px;
+    width: 300px;
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .next-persona-container {
+    margin-top: 2%;
+  }
+  .persona-embed-container {
+    height: 100%;
+  }
+  .persona-header {
+    font-size: 40px;
+    font-weight: 500;
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    height: 0px;
+  }
+  .insight-statement {
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .insight-header {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    font-weight: 500;
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .reflection-image {
+    width: 50%
+  }
+  .reflection-header {
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0%;
+  }
+  .reflection-subheader {
+    height: auto;
+    margin-top: 1%;
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
+  .reflection-headers {
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .reflection-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .reflection-paragraphs {
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  @keyframes fade {
+    from {
+        opacity: 0;   
+    }
+    to {
+        opacity: 1;
+    }
+}
